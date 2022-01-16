@@ -1,7 +1,37 @@
 body {
-  font-family: "Roboto", "Arial", sans-serif;
+  font-family: "Roboto", "Ralawey", sans-serif;
+}
+.logo-class {
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #2196f3;
+}
+.logo-class:hover {
+  color: blueviolet;
+}
+.logo-class:focus {
+  color: blueviolet;
+}
+.li_class {
+}
+.li_class_mod {
+}
+.h1_class {
+}
+.button_class {
+}
+.p_class {
 }
 
-nav a.active {
-  font-weight: bold;
+.h2_class {
+  font-family: "Open Sans", sans-serif;
+}
+.h2_class_mod {
+}
+.h3_class {
 }
