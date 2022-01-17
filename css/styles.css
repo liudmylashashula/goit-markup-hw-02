@@ -1,37 +1,245 @@
-body {
-  font-family: "Roboto", "Ralawey", sans-serif;
+:root {
+  --header-text-color: #ffffff;
+  --header-fon-color: #2f303a;
+  --button-color: #c51e1e;
+  --first-button-color: #2196f3;
 }
-.logo-class {
-  font-family: Raleway;
-  font-size: 26px;
-  font-style: normal;
+
+body {
+  font-family: "Open Sans", "Roboto", sans-serif;
+  color: #212121;
+}
+
+/*-----HEADER------*/
+.header {
+  font-size: 18px;
   font-weight: 700;
-  line-height: 1.19;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+  background: #ffffff;
+  color: var(--header-text-color);
+}
+
+.logo {
+  font-family: Oleo Script;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.38;
   letter-spacing: 0.03em;
   text-align: left;
   color: #2196f3;
 }
-.logo-class:hover {
-  color: blueviolet;
-}
-.logo-class:focus {
-  color: blueviolet;
-}
-.li_class {
-}
-.li_class_mod {
-}
-.h1_class {
-}
-.button_class {
-}
-.p_class {
+
+.header-link {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #2196f3;
 }
 
-.h2_class {
-  font-family: "Open Sans", sans-serif;
+.header-link:hover,
+.header-link:focus {
+  color: rgb(255, 0, 0);
 }
-.h2_class_mod {
+.header-linc-tel {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1, 7;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
-.h3_class {
+
+.header-linc-tel:hover,
+.header-linc-tel:focus {
+  color: rgb(255, 0, 0);
+}
+
+.button-slogan:hover,
+.button-slogan:focus {
+  color: var(--button-color);
+  cursor: pointer;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: rgb(255, 0, 0);
+}
+
+.footer-link-tel {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1, 7;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #2754a899;
+}
+
+.footer-link-tel:hover,
+.footer-link-tel:focus {
+  color: rgb(255, 0, 0);
+}
+
+.slogan {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1, 36;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+/*----- HERO------*/
+.hero-item {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1, 1;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #212121;
+}
+
+.hero-text {
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1,7;
+letter-spacing: 0.03em;
+text-align: left;
+color #757575;
+}
+.tasks {
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1,1;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+}
+
+.task {
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1,16x;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+}
+.task-item {
+
+
+}
+
+.team {
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1,16;
+letter-spacing: 0.03em;
+text-align: center;
+}
+
+.team-title {font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1,1;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+}
+
+.team-title-after {
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.18x;
+letter-spacing: 0.03em;
+text-align: center;
+}
+/*---PORTFOLIO-----*/
+
+/*-----HEADER-----*/
+
+.button-item:hover,
+.button-item:focus {
+  color: var(--button-color);
+  cursor: pointer;
+}
+
+.button-item {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1,6;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/*----HERO----*/
+.pic-item {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #212121;
+}
+
+.pic-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #212121;
+}
+
+.pic-item-after {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1, 8;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #757575;
+}
+
+/*------ FOOTER-------*/
+.footer {
+  height: 252px;
+  width: 1600px;
+  left: 0px;
+  top: 2097px;
+  border-radius: 0px;
+  color: #2f303a;
+}
+.logo {
+  font-family: Oleo Script;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.38;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #2196f3;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: rgb(255, 0, 0);
+}
+
+.footer-link-tel {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1, 7;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #2754a899;
+}
+
+.footer-link-tel:hover,
+.footer-link-tel:focus {
+  color: rgb(255, 0, 0);
 }
